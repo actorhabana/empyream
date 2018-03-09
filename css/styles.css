@@ -1,0 +1,188 @@
+.jumbotron {
+  /* 30vh - 30% of the view port height */
+  padding: 15vh 15%;
+  background-color: #cccccc;
+
+  /* Image by rawpixel */
+  background-image: url("../images/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+h1{
+  margin: 0.5rem 0 4rem 0
+}
+
+.bg-nav{
+  background-color: #262745;
+}
+/*abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}*/
+.row {
+  margin: 0px 0px;
+}
+.btn-red {
+  background-color:DARKORANGE;
+  color: white;
+}
+.navbar-togler{
+  border: 1px solid white;
+}
+.nav-item a{
+  color: white;
+  font-size: 1rem;
+}
+
+.btn-cta{
+  font-size: 5rem;
+}
+.benefits{
+  color: white;
+  padding: 5rem 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ecbe6+0,9ecbe6+44,659cc8+100 */
+background: #9ecbe6; /* Old browsers */
+background: -moz-linear-gradient(top, #9ecbe6 0%, #9ecbe6 44%, #659cc8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #9ecbe6 0%,#9ecbe6 44%,#659cc8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #9ecbe6 0%,#9ecbe6 44%,#659cc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ecbe6', endColorstr='#659cc8',GradientType=0 ); /* IE6-9 */
+}
+
+.carousel{
+  width: 100%;
+}
+.testimonials{
+  background-color: #659CC8;
+  color: white;
+  padding: 4rem 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#659cc8+0,9ecbe6+100 */
+  background: #659cc8; /* Old browsers */
+  background: -moz-linear-gradient(top, #659cc8 0%, #9ecbe6 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #659cc8 0%,#9ecbe6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #659cc8 0%,#9ecbe6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#659cc8', endColorstr='#9ecbe6',GradientType=0 ); /* IE6-9 */
+  }
+  .img-happy-sleep img{
+  border-radius: 1rem;
+  max-height: 300px;
+}
+  .img-workout img{
+  border-radius: 1rem;
+  max-height: 300px;
+  }
+  .img-info img{
+  border-radius: 1rem;
+  max-height: 300px;
+  }
+  .img-testimonial img{
+  border-radius: 1rem;
+  max-height: 300px;
+}
+.blockquote{
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 1.5rem 0;
+}
+
+blockquote p{
+  font-size: 1rem;
+  color: #fcfcfc;
+  font-family: 'Lato',sans-serif;
+}
+.blockquote-footer {
+  font-size: 0.8rem;
+  color: #fcfcfc;
+  font-family: 'Lato',sans-serif;
+
+}
+blockquote footer cite{
+  font-size: 0.8rem;
+  color: #253C60;
+  font-family: 'Lato',sans-serif;
+  font-style: italic;
+  font-weight: thin 100;
+
+}
+.carousel-indicators li {
+  height: 20px;
+  border-radius: 20px;
+  width: 20px;
+  }
+input{
+  margin-bottom: 1.5rem;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+  background-image: url('../images/bg-footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+
+.newsletter h1 {
+  color: #659CC8;
+  margin-top:7rem;
+}
+
+.btn-alejandra{
+  background-color: #365780;
+  color: white;
+  padding:1rem 3rem;
+  font-size: 1.8rem;
+  border-radius: 40px;
+}
+.btn-newsletter{
+  border-color: #365780;
+  color: white;
+  padding:1rem 3rem;
+  font-size: 1.8rem;
+  border-radius: 40px;
+  margin-bottom: 10rem;
+}
+.display-1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000000;
+}
+.display-4 {
+  color: #fcfcfc;
+  text-shadow: 1px 1px 3px #000000;
+}
+.row-test {
+  background-color:black
+}
+/* FOOTER STYLE */
+.footer{
+  background-color: #365780;
+  padding: 1rem 0rem;
+}
+.footer a:hover i{
+  color: #253C60;
+  background-color: white;
+}
+/* .footer a:visited i{
+  color: #365780;
+  background-color: white;
+} */
+.footer a:active i{
+  color: white;
+  background-color: white;
+}
+.fab{
+  font-size: 25px;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  padding: 6.5px 2.5px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+}
+.btn-cta{
+  font-size: 40px;
+}
